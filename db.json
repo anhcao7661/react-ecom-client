@@ -1,0 +1,49 @@
+{
+  "billboards": [
+    {
+      "id": "b2734f7c-cbcb-42a9-bb7a-9555701718f8",
+      "label": "Summer Collection",
+      "imageUrl": "https://res.cloudinary.com/demo/image/upload/w_1600,h_500,c_fill/beautiful_beach.jpg"
+    }
+  ],
+  "categories": [
+    { "id": "cat-1", "name": "Shirts", "billboardId": "b2734f7c-cbcb-42a9-bb7a-9555701718f8" },
+    { "id": "cat-2", "name": "Shoes", "billboardId": "b2734f7c-cbcb-42a9-bb7a-9555701718f8" }
+  ],
+  "colors": [
+    { "id": "col-1", "name": "Black", "value": "#000000" },
+    { "id": "col-2", "name": "White", "value": "#ffffff" }
+  ],
+  "sizes": [
+    { "id": "size-1", "name": "S", "value": "S" },
+    { "id": "size-2", "name": "M", "value": "M" },
+    { "id": "size-3", "name": "L", "value": "L" }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "category": { "id": "cat-1", "name": "Shirts" },
+      "name": "Basic Tee",
+      "price": 1999,
+      "isFeatured": true,
+      "images": [
+        { "id": "img-1", "url": "https://res.cloudinary.com/demo/image/upload/w_800,h_800,c_fill/fashion_shirt.jpg" }
+      ],
+      "color": { "id": "col-1", "name": "Black", "value": "#000000" },
+      "size": { "id": "size-2", "name": "M", "value": "M" }
+    },
+    {
+      "id": "prod-2",
+      "category": { "id": "cat-2", "name": "Shoes" },
+      "name": "Running Sneakers",
+      "price": 4999,
+      "isFeatured": true,
+      "images": [
+        { "id": "img-2", "url": "https://res.cloudinary.com/demo/image/upload/w_800,h_800,c_fill/shoes.jpg" }
+      ],
+      "color": { "id": "col-2", "name": "White", "value": "#ffffff" },
+      "size": { "id": "size-3", "name": "L", "value": "L" }
+    }
+  ]
+}
+
